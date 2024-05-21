@@ -17,8 +17,10 @@ Sensores
 Los sensores que miden la temperatura y el PH serán simulados por procesos. Los procesos sensores se invocarán desde el shell de la siguiente forma:
 
 $ ./sensor –s tipo-sensor –t tiempo –f archivo –p pipe nominal
+
 1 = temperatura
 2 = Ph
+
 Donde:
 
 tipo_sensor: especifica si el proceso reportará PH (2) o temperatura (1).
