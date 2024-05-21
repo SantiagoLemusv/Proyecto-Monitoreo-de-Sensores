@@ -17,7 +17,8 @@ Sensores
 Los sensores que miden la temperatura y el PH serán simulados por procesos. Los procesos sensores se invocarán desde el shell de la siguiente forma:
 
 $ ./sensor –s tipo-sensor –t tiempo –f archivo –p pipe nominal
-
+1 = temperatura
+2 = Ph
 Donde:
 
 tipo_sensor: especifica si el proceso reportará PH (2) o temperatura (1).
@@ -42,8 +43,9 @@ Clona este repositorio en tu máquina local.
 Compila los archivos fuente utilizando el compilador de C.
 Ejecuta el proceso monitor y los procesos sensores desde el terminal, siguiendo las instrucciones proporcionadas en la descripción de cada componente del sistema.
 Observa la salida del proceso monitor para recibir notificaciones sobre la calidad del agua monitoreada.
+
 Contribuyentes
 Santiago Lemus: Desarrollador principal.
-Paula Malagon: Contribuyente.
+Paula Malagon: Desarrolladora principal.
 Licencia
 Este proyecto está bajo la Licencia GNU General Public License (GPL) de Código Abierto (FOSS).
